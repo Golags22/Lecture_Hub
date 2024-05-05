@@ -1,19 +1,17 @@
 $(function() {
-'use strict';
+    'use strict';
 
-$('.form-control').on('input', function() {
-    var $field = $(this).closest('.form-group');
-    if (this.value) {
-        $field.addClass('field--not-empty');
-    } else {
-        $field.removeClass('field--not-empty');
-    }
-});
-
-
-//loading page
+    $('.form-control').on('input', function() {
+        var $field = $(this).closest('.form-group');
+        if (this.value) {
+            $field.addClass('field--not-empty');
+        } else {
+            $field.removeClass('field--not-empty');
+        }
+    });
 
 
+    //loading page
 
 
 
@@ -22,21 +20,11 @@ $('.form-control').on('input', function() {
 
 
 
-var loaderPage = function() {
-    $(".fh5co-loader").fadeOut("slow");
-};
 
 
-
-});
-
-
-
-
-
-
-
-
+    var loaderPage = function() {
+        $(".fh5co-loader").fadeOut("slow");
+    };
 
 
 

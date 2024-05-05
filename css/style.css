@@ -437,6 +437,10 @@
             margin: 0;
             padding: 0;
         }
+        .hub {
+            color: #faa703;
+            font-size: 4rem;
+        }
         .slider-text-inner {
             /* text-align: center;
             margin-top: 0; */
@@ -450,11 +454,11 @@
         }
         video {
             position: absolute;
-            top: auto;
+            top: 0;
             left: auto;
             right: 0;
-            height: 100%;
-            width: 100%;
+            height: auto;
+            width: auto;
             /* margin-left: 15px;
             margin-top: 100px; */
             /* display: inline; */
@@ -529,6 +533,11 @@
         color: white;
     }
     
+    .hub {
+        color: #faa703;
+        font-size: 4rem;
+    }
+    
     @media screen and (max-width: 768px) {
         #fh5co-course-categories,
         #fh5co-counter,
@@ -542,6 +551,10 @@
         #fh5co-contact,
         #fh5co-footer {
             padding: 3em 0;
+        }
+        .hub {
+            color: #faa703;
+            font-size: 3rem;
         }
     }
     
@@ -584,6 +597,14 @@
     @media screen and (max-width: 992px) {
         .services .icon {
             margin: 0 auto 30px auto;
+        }
+        video {
+            position: absolute;
+            top: 0;
+            left: auto;
+            right: 0;
+            height: auto;
+            width: auto;
         }
     }
     
@@ -675,6 +696,14 @@
         .course .desc,
         .course .course-img {
             width: 100%;
+        }
+        video {
+            position: absolute;
+            top: 0;
+            left: auto;
+            right: 0;
+            height: auto;
+            width: auto;
         }
     }
     
@@ -934,6 +963,17 @@
         }
     }
     
+    @media screen and (max-width: 1240px) {
+        video {
+            position: absolute;
+            top: 0;
+            left: auto;
+            right: 0;
+            height: auto;
+            width: auto;
+        }
+    }
+    
     #fh5co-testimonial .arrow-thumb {
         position: absolute;
         top: 40%;
@@ -1026,6 +1066,14 @@
     @media screen and (max-width: 768px) {
         .pricing__item {
             margin-bottom: 30px;
+        }
+        video {
+            position: absolute;
+            top: 0;
+            left: auto;
+            right: 0;
+            height: auto;
+            width: auto;
         }
     }
     

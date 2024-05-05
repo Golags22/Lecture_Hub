@@ -2,6 +2,12 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+#fh5co-hero {
+    min-height: 630px;
+    height: 630px;
+    background: #fff url(/images/loader.gif) no-repeat center center;
+}
+
 p {
     color: #b3b3b3;
     font-weight: 300;
