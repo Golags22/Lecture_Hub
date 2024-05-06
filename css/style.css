@@ -453,6 +453,10 @@
             padding: 0;
             height: 250px;
         }
+        ul li h1,
+        h2 {
+            position: inherit !important;
+        }
         #fh5co-hero {
             min-height: 250px;
             height: 250px;
@@ -462,8 +466,8 @@
             /* margin-left: 6.5em; */
             /* max-height: 70%; */
             position: absolute;
-            min-height: 250px;
-            height: 250px;
+            min-height: inherit;
+            height: inherit;
             top: 0;
             left: 0;
             /* margin-bottom: 13px; */
