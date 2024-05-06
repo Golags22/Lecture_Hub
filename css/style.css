@@ -601,7 +601,7 @@
         video {
             position: absolute;
             top: 0;
-            left: auto;
+            left: 0;
             right: 0;
             height: auto;
             width: auto;
