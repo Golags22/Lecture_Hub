@@ -51,11 +51,74 @@ h2 {
     height: 100vh;
 }
 
+.br {
+    display: none;
+}
+
 @media (max-width: 991.98px) {
     .half .bg {
         height: 500px;
     }
 }
+
+@media (max-width: 360px) {
+    .ml-auto {
+        font-size: 1em;
+        display: block;
+    }
+    .br {
+        display: block;
+    }
+}
+
+@media (max-width: 375px) {
+    .ml-auto {
+        font-size: 1em;
+        display: block;
+    }
+    .br {
+        display: block;
+    }
+}
+
+@media (max-width: 414px) {
+    .ml-auto {
+        font-size: 1em;
+        display: block;
+    }
+    .br {
+        display: block;
+    }
+}
+
+@media (max-width: 430px) {
+    .ml-auto {
+        font-size: 1em;
+        display: block;
+    }
+    .br {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .ml-auto {
+        font-size: 1em;
+    }
+    .br {
+        display: block;
+    }
+}
+
+
+/* @media (min-width: 820px) {
+    .ml-auto {
+        font-size: 1em;
+    }
+    .br {
+        display: block;
+    }
+} */
 
 .half .contents,
 .half .bg {
