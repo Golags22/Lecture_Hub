@@ -444,36 +444,36 @@
         .slider-text-inner {
             text-align: center;
             margin-top: 0;
-            height: 100px;
+            height: 50px !important;
             /* background-color: #4cae4c; */
         }
         .flexslider {
             /* background-color: red; */
             margin: 0;
             padding: 0;
-            height: 250px;
+            height: 300px;
+            background-color: red;
         }
-        ul li h1,
-        h2 {
-            position: inherit !important;
+        #fh5co-hero .flexslider .slider-text>.slider-text-inner {
+            display: block;
+            min-height: 700px;
         }
         #fh5co-hero {
             min-height: 250px;
-            height: 250px;
+            height: 100px !important;
             background: #ffffff url(../images/loader.gif) no-repeat center center;
         }
         video {
             /* margin-left: 6.5em; */
             /* max-height: 70%; */
-            position: absolute;
-            min-height: inherit;
-            height: inherit;
-            top: 0;
-            left: 0;
             /* margin-bottom: 13px; */
+            margin: 0;
             padding: 0;
             display: block !important;
         }
+        /* ol {
+            display: none;
+        } */
     }
     
     #fh5co-hero .flexslider .slider-text>.slider-text-inner h2 {
